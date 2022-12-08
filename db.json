@@ -35,11 +35,12 @@
       "postId": 1
     }
   ],
-  "login": [
+  "user": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "FullName":"alok",
+      "email":"abc@gmail.com",
+      "password":"1234"
     }
   ],
   "signup": [
@@ -66,7 +67,7 @@
   "profile": {
     "name": "typicode"
   },
-  "user":[
+  "user1":[
     {
     "FullName":"alok",
     "email":"abc@gmail.com",
