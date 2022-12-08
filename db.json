@@ -66,10 +66,12 @@
   "profile": {
     "name": "typicode"
   },
-  "user":{
+  "user":[
+    {
     "FullName":"alok",
     "email":"abc@gmail.com",
     "password":"1234"
+    }
 
-  }
+  ]
 }
