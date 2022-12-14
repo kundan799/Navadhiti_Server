@@ -4,22 +4,8 @@
       "id": 1,
       "title": "json-server",
       "author": "typicode"
-    },
-    {
-      "title": "hii",
-      "author": "ashish",
-      "id": 2
-    },
-    {
-        "title": "sddd",
-        "author": "ashish",
-        "id": 3
-      },
-      {
-        "title": "scdc",
-        "author": "ashish",
-        "id": 4
-      }
+    }
+    
   ],
   "comments": [
     {
