@@ -62,6 +62,7 @@
   ],
   "coreservice": [
     {
+      "id":1,
       "Avatar": "https://media4.foundit.in/recruiter_2015/india/images/resume-database-1.jpg",
       "name": "Resume Database Access",
       "desc": "Find your next hire with all new RDA powered by Semantic Search technology that makes it easy and quick to find the talent matching your requirements.",
@@ -73,6 +74,7 @@
       "Highlights":"− Quick and relevant profile search using Semantic Search  − Use different filter options to narrow your search − Find candidates by company, city, industry, job roles and more − Connect with shortlisted candidate instantly via e-mail and SMS − Organize your saved profiles in folders the way you want"
     },
     {
+      "id":2,
       "Avatar": "https://media4.foundit.in/recruiter_2015/india/images/Job-Posting-1.jpg",
       "name": "Job Posting",
       "desc": "Reach your next hire faster. Get relevant responses to your job ads with our new age technology.",
@@ -83,6 +85,7 @@
       "Highlights":"Response management, logo with job posting, print alliance, and highlighting your job posting are some of the features available to a recruiter basis the package he chooses."
     },
     {
+      "id":3,
       "Avatar": "https://media4.foundit.in/recruiter_2015/india/images/Monster-Social-1.jpg",
       "name": "Social Job Ads",
       "desc": "Use the power of Social Job Ads to take your job posting to a large pool of active and passive job seekers on social media & beyond. Find Better, Faster.",
@@ -93,6 +96,7 @@
       "Highlights":"Response management, logo with job posting, print alliance, and highlighting your job posting are some of the features available to a recruiter basis the package he chooses."
     },
     {
+      "id":4,
       "Avatar": "https://media4.foundit.in/recruiter_2015/india/images/Branding-Solution-1.jpg",
       "name": "Branding Solutions",
       "desc": "Expand the reach of your employer brand with foundit’s Branding Solutions. Showcase your products & offerings to the audience of your choice..",
@@ -105,6 +109,7 @@
   ],
   "better": [
     {
+      "id":1,
       "Avatar": "https://media4.foundit.in/recruiter_2015/india/images/custom-job-1.jpg",
       "name": "Custom Job Template",
       "desc": "Get a customized job template with your branding and colour theme for your job postings!",
@@ -116,6 +121,7 @@
       "Highlights":"− Quick and relevant profile search using Semantic Search  − Use different filter options to narrow your search − Find candidates by company, city, industry, job roles and more − Connect with shortlisted candidate instantly via e-mail and SMS − Organize your saved profiles in folders the way you want"
     },
     {
+      "id":2,
       "Avatar": "https://media4.foundit.in/recruiter_2015/india/images/quinton-1.jpg",
       "name": "Quinton",
       "desc": "Save 70% of your efforts by automating your interview process with foundit Quinton (Quick Interview on Demand).",
@@ -126,6 +132,7 @@
       "Highlights":"Response management, logo with job posting, print alliance, and highlighting your job posting are some of the features available to a recruiter basis the package he chooses."
     },
     {
+      "id":3,
       "Avatar": "https://media4.foundit.in/recruiter_2015/india/images/qhire-1.jpg",
       "name": "Talent Placement Services",
       "desc": "Talent Placement Services (TPS) is a specialized recruitment service available to select firms looking for foundit recruitment experts to facilitate their unique hiring needs across India, Middle East and South East Asia",
