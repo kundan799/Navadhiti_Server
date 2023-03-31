@@ -1,147 +1,65 @@
 {
-  "posts": [
+  "fields": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-    
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "data": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "user": [
-    {
-      "id": 1,
-      "FullName": "alok",
-      "email": "abc@gmail.com",
-      "password": "1234"
-    }
-  ],
-  "signup": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "cart": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "whislist": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
-  "user1": [
-    {
-      "FullName": "alok",
-      "email": "abc@gmail.com",
-      "password": "1234"
-    }
-  ],
-  "coreservice": [
-    {
-      "id":1,
-      "Avatar": "https://media4.foundit.in/recruiter_2015/india/images/resume-database-1.jpg",
-      "name": "Resume Database Access",
-      "desc": "Find your next hire with all new RDA powered by Semantic Search technology that makes it easy and quick to find the talent matching your requirements.",
-
-      "desc1": "Find Better, Faster with foundit’s Resume Database Access that is powered by Semantic Search technology.",
-      "desc2": "If you are looking to hire the best talent out there, your search should end with foundit Database Access (RDA). We have built an intelligent recommendation engine that understands the concept and context of your searches and suggests most suitable candidates basis your search criteria. Moreover, the technology also uses parser algorithm to find relevancy of your keyword and thus picking the best matched candidates for you.",
-
-      "desc3":"Besides making use of the cutting-edge technology to get you the right hire, we have also segmented database on various parameters including IT and non-IT. So, if you are an organization or a recruiter looking for candidates from a specific city, region, skill or Industry, it’s all very simple with foundit Resume Database Access",
-      "Highlights":"− Quick and relevant profile search using Semantic Search  − Use different filter options to narrow your search − Find candidates by company, city, industry, job roles and more − Connect with shortlisted candidate instantly via e-mail and SMS − Organize your saved profiles in folders the way you want"
+      "label": "Date of Birth (YYYY-MM-DD)",
+      "key": "birthday",
+      "isRequired": true,
+      "order": 1,
+      "isReadonly": false,
+      "type": "date"
     },
     {
-      "id":2,
-      "Avatar": "https://media4.foundit.in/recruiter_2015/india/images/Job-Posting-1.jpg",
-      "name": "Job Posting",
-      "desc": "Reach your next hire faster. Get relevant responses to your job ads with our new age technology.",
-      "desc1": "Looking to post a job online? You are at the right place. foundit provides online job posting service for regions across India, Middle East and South East Asia..",
-      "desc2": "For employers and professionals who are well-versed in recruiting and hiring talent for a business, it is often found that hiring is one of the most complex, laborious and time-consuming tasks that they face. With foundit Job Posting and other hiring solutions, we make it easy for you to Find Better candidates and hire them faster..",
-
-      "desc3":"We offer the following job posting packages:",
-      "Highlights":"Response management, logo with job posting, print alliance, and highlighting your job posting are some of the features available to a recruiter basis the package he chooses."
+      "label": "Gestational Age",
+      "key": "gestationalAge",
+      "isRequired": true,
+      "order": 3,
+      "unit": "weeks",
+      "isReadonly": false,
+      "type": "number"
     },
     {
-      "id":3,
-      "Avatar": "https://media4.foundit.in/recruiter_2015/india/images/Monster-Social-1.jpg",
-      "name": "Social Job Ads",
-      "desc": "Use the power of Social Job Ads to take your job posting to a large pool of active and passive job seekers on social media & beyond. Find Better, Faster.",
-      "desc1": "Choose from a large pool of candidates - Hire faster, Find Better with Social Job Ads.",
-      "desc2": "Social Job Ads is an integrated 360 Degree solution that maximizes your reach and drives great applies. It not only takes your social recruiting to the next level but also expands your social reach and brand awareness with job seekers..",
-
-      "desc3":"It is one of its kind Job Ad, that provides a powerful potent mix of intelligent custom targeting via multi-level vehicles:",
-      "Highlights":"Response management, logo with job posting, print alliance, and highlighting your job posting are some of the features available to a recruiter basis the package he chooses."
+      "label": "Sex",
+      "items": [
+        {
+          "value": "male",
+          "text": "Male"
+        },
+        {
+          "value": "female",
+          "text": "Female"
+        }
+      ],
+      "key": "sex",
+      "isRequired": true,
+      "order": 4,
+      "isReadonly": false,
+      "type": "dropdown"
     },
     {
-      "id":4,
-      "Avatar": "https://media4.foundit.in/recruiter_2015/india/images/Branding-Solution-1.jpg",
-      "name": "Branding Solutions",
-      "desc": "Expand the reach of your employer brand with foundit’s Branding Solutions. Showcase your products & offerings to the audience of your choice..",
-      "desc1": "Build a unique identity for your employer brand with foundit’s Branding Solutions.",
-      "desc2": "Branding is about what you do and say & how people perceive your brand. foundit provides you the opportunity to showcase your products & offerings to the right audience and communicate your brand to get an edge over your competition.",
-
-      "desc3":"To make a connect and break the clutter, every brand has to live up the standards of excellence. And together we, with the strength of your brand and our branding strategy can make it happen.",
-      "Highlights":"foundit offers a host of branding solutions right from banners, Interstitial Ads, Search Results Takeover, Targeted Mailers to visibility on premium properties like login and log out pages. Moreover, you can also choose to showcase your employer brand on high impact properties like Job Search Result Pages, Job Alert Mailers, and Job Application Confirmation pages among others."
+      "label": "Height",
+      "key": "height",
+      "isRequired": true,
+      "order": 5,
+      "unit": "cm",
+      "isReadonly": false,
+      "type": "number"
+    },
+    {
+      "label": "Weight",
+      "key": "weight",
+      "isRequired": true,
+      "order": 6,
+      "unit": "kg",
+      "isReadonly": false,
+      "type": "number"
+    },
+    {
+      "label": "BMI",
+      "key": "bmi",
+      "order": 11,
+      "unit": "kg/m²",
+      "isReadonly": true,
+      "type": "number"
     }
-  ],
-  "better": [
-    {
-      "id":1,
-      "Avatar": "https://media4.foundit.in/recruiter_2015/india/images/custom-job-1.jpg",
-      "name": "Custom Job Template",
-      "desc": "Get a customized job template with your branding and colour theme for your job postings!",
-
-      "desc1": "Make Job Posting a quick and easy affair with foundit’s Custom Job Template!.",
-      "desc2": "Have an edge over competition. Use our Custom Job Template (CJT) to improve your hiring process. Unify the look and feel of your jobs by applying a fully branded Custom Job Template.",
-
-      "desc3":"If you want your job ad to be unique and it stands out from the crowd to get the maximum applies, Custom Job Template is the key.",
-      "Highlights":"− Quick and relevant profile search using Semantic Search  − Use different filter options to narrow your search − Find candidates by company, city, industry, job roles and more − Connect with shortlisted candidate instantly via e-mail and SMS − Organize your saved profiles in folders the way you want"
-    },
-    {
-      "id":2,
-      "Avatar": "https://media4.foundit.in/recruiter_2015/india/images/quinton-1.jpg",
-      "name": "Quinton",
-      "desc": "Save 70% of your efforts by automating your interview process with foundit Quinton (Quick Interview on Demand).",
-      "desc1": "It takes 20 days to reach out to 1000 candidates…can you afford to spend this kind of time? Get Quinton (Quick Interview On-demand) today!",
-      "desc2": "Quinton is an automated tool that empowers recruiters to schedule & effortlessly conduct video-audio interviews with multiple candidates parallelly.",
-
-      "desc3":"With Quinton you can reach out to 1000 candidates in 1 to 4 days flat. Yes, that’s right! It’s the tool that can take your interview woes away by:",
-      "Highlights":"Response management, logo with job posting, print alliance, and highlighting your job posting are some of the features available to a recruiter basis the package he chooses."
-    },
-    {
-      "id":3,
-      "Avatar": "https://media4.foundit.in/recruiter_2015/india/images/qhire-1.jpg",
-      "name": "Talent Placement Services",
-      "desc": "Talent Placement Services (TPS) is a specialized recruitment service available to select firms looking for foundit recruitment experts to facilitate their unique hiring needs across India, Middle East and South East Asia",
-      "desc1": "Choose from a large pool of candidates - Hire faster, Find Better with Social Job Ads.",
-      "desc2": "Social Job Ads is an integrated 360 Degree solution that maximizes your reach and drives great applies. It not only takes your social recruiting to the next level but also expands your social reach and brand awareness with job seekers..",
-
-      "desc3":"It is one of its kind Job Ad, that provides a powerful potent mix of intelligent custom targeting via multi-level vehicles:",
-      "Highlights":"Response management, logo with job posting, print alliance, and highlighting your job posting are some of the features available to a recruiter basis the package he chooses."
-    }
-    
   ]
 }
